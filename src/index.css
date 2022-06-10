@@ -1,13 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto+Condensed:wght@300&family=Roboto+Mono:wght@200&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background: url("https://picsum.photos/1080/720?grayscale");
+  /* background-color: #202020; */
+  background-size: cover;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.joke {
+  margin: 10px;
+  height: 83vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-shadow: 3px 3px 3px black;
+}
+
+.loading{
+  font-size: 2rem;
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+.setup{
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-size: 2.5rem;
+}
+
+.delivery{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2rem;
+}
+
+.navbar{
+  margin: 0;
+  border-bottom: 1px solid black;
+  box-shadow: 0 0 80px #fff;
+}
+
+.logo img{
+  width: 40px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.footer{
+  border-top: 1px solid black;
+  box-shadow: 0 0 80px #fff;
+  padding: 10px;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.footer p{
+  padding-left: 20px;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.7rem;
+  text-shadow: 3px 3px 5px black;
 }

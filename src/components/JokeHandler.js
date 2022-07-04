@@ -26,14 +26,16 @@ function Joke(){
     }
     else{
         return(
-            <div className="joke">
-                <p className="setup">
-                    {setup}
-                </p>
-                <p className="delivery">
-                    {delivery}
-                </p>
-            </div>
+                <div className="joke">
+                    <div className="rect">
+                        <p className="setup">
+                            {setup}
+                        </p>
+                        <p className="delivery">
+                            {delivery}
+                        </p>
+                    </div>
+                </div>
         )
     }
 

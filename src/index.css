@@ -4,7 +4,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: url("https://i.ibb.co/942L1wK/wallpaperflare-com-wallpaper-1.jpg");
+  background: #18191d;
   /* background-color: #202020; */
   background-size: cover;
 }
@@ -20,7 +20,17 @@ body {
   justify-content: center;
   text-align: center;
   text-shadow: 3px 3px 3px black;
+  padding-left: 10%;
+  padding-right: 10%;
 }
+
+.rect{
+  padding: 5%;
+  background-color: #202020;
+  box-shadow: 2px 2px 20px #020202;
+  border-radius: 20px;
+}
+
 
 .loading{
   font-size: 2rem;
@@ -42,7 +52,7 @@ body {
   margin: 0;
   border-bottom: 1px solid black;
   padding: 10px;
-  box-shadow: 0 0 80px #fff;
+  box-shadow: 0 0 20px #000;
 }
 
 .navbar p {
@@ -55,7 +65,7 @@ body {
 
 .footer{
   border-top: 1px solid black;
-  box-shadow: 0 0 80px #fff;
+  box-shadow: 0 0 20px #000;
   padding: 10px;
   align-items: flex-end;
   justify-content: flex-end;

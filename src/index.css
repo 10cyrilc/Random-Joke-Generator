@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto+Condensed:wght@300&family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 body {
   margin: 0;
   padding: 0;
-  background: url("https://picsum.photos/1080/720?grayscale");
+  background: url("https://i.ibb.co/942L1wK/wallpaperflare-com-wallpaper-1.jpg");
   /* background-color: #202020; */
   background-size: cover;
 }
@@ -11,7 +12,7 @@ body {
 
 .joke {
   margin: 10px;
-  height: 83vh;
+  height: 80.5vh;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -40,14 +41,16 @@ body {
 .navbar{
   margin: 0;
   border-bottom: 1px solid black;
+  padding: 10px;
   box-shadow: 0 0 80px #fff;
 }
 
-.logo img{
-  width: 40px;
+.navbar p {
   padding-left: 20px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  color: #fff;
+  font-family: 'Staatliches', cursive;
+  font-size: .9rem;
+  text-shadow: 3px 3px 5px black;
 }
 
 .footer{

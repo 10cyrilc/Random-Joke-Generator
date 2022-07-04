@@ -1,12 +1,9 @@
-import logo from './logo.png';
-import './index.css'
+import '../index.css'
 
 function Nav() {
   return (
     <nav className="navbar">
-      <div className="logo">
-        <img src={logo} alt="Logo" />
-      </div>
+        <p className="navText">Random Joke Generator</p>
     </nav>
   );
 }

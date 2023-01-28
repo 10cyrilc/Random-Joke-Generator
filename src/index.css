@@ -11,7 +11,7 @@ body {
 
 
 .joke {
-  background: url("https://i.ibb.co/1zV2fqR/Elephant-gradient.jpg");
+  background: url("./components/images/background.webp");
   background-size: cover;
   margin: 10px;
   height: 80.5vh;
@@ -26,33 +26,35 @@ body {
   padding-right: 10%;
 }
 
-.rect{
-  padding: 5%;
-  background-color: #202020;
-  box-shadow: 2px 2px 20px #020202;
-  border-radius: 20px;
+.rect {
+  backdrop-filter: blur(11px) saturate(148%);
+  -webkit-backdrop-filter: blur(11px) saturate(148%);
+  background-color: rgba(17, 25, 40, 0.38);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  padding: 20px;
 }
 
 
-.loading{
+.loading {
   font-size: 2rem;
   font-family: 'Roboto Mono', monospace;
 }
 
 
-.setup{
+.setup {
   font-family: 'Kdam Thmor Pro', sans-serif;
   font-size: 2.5rem;
 }
 
-.delivery{
+.delivery {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 2rem;
 }
 
 /* ___________________________________________________Navbar___________________________________________________ */
 
-.navbar{
+.navbar {
   margin: 0;
   border-bottom: 1px solid black;
   padding: 5px;
@@ -69,7 +71,7 @@ body {
 
 /* ___________________________________________________Footer___________________________________________________ */
 
-.footer{
+.footer {
   display: flex;
   width: 98%;
   border-top: 1px solid black;
@@ -79,7 +81,7 @@ body {
   align-content: space-between;
 }
 
-.footer p{
+.footer p {
   padding-left: 20px;
   color: #fff;
   font-family: 'Courier New', Courier, monospace;
@@ -87,7 +89,7 @@ body {
   text-shadow: 3px 3px 5px black;
 }
 
-.footer .icons{
+.footer .icons {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -95,7 +97,7 @@ body {
 }
 
 
-.footer .icons a{
+.footer .icons a {
   color: #fff;
   padding: 0 0 0 10px;
 }
